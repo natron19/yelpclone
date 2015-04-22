@@ -5,10 +5,17 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <!-- Latest compiled and minified CSS -->
+  <%= render 'layouts/bootstrap' %> 
+
 </head>
 <body>
 
-<%= yield %>
+<%= render 'layouts/navbar' %> 
+<div class="container-fluid"> 
+  <%= yield %>
+  <%= render 'layouts/footer' %> 
+</div>
 
 </body>
 </html>
