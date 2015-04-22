@@ -47,3 +47,9 @@ gem 'rails_12factor', group: :production
 
 gem 'carrierwave'
 
+gem 'fog'
+
+gem 'fog-aws'
+
+gem 'figaro' 
+
