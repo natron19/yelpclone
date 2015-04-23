@@ -58,3 +58,5 @@ gem 'fog-aws'
 
 gem 'figaro' 
 
+gem 'devise' 
+
