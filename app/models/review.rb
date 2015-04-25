@@ -7,6 +7,6 @@ class Review < ActiveRecord::Base
     only_inter: true, 
     greater_than_or_equal_to: 1, 
     less_than_or_equal_to: 5, 
-    message: "can only be a whole number between 1 and 5"
+    message: "Can only be a whole number between 1 and 5"
   }
 end
