@@ -11,9 +11,7 @@
     </div>
   <% end %>
 
-  <div id="star-rating"> 
-
-  </div> 
+  <div id="star-rating"></div>
   <div class="form-group">
     <%= f.label :comment %>
     <%= f.text_area :comment, class: "form-control" %>
@@ -27,6 +25,6 @@
 <script>
   $('#star-rating').raty({
     path: 'https://s3-us-west-2.amazonaws.com/ntryelpdemo/stars',
-    scoreName: 'reviewName[rating]'
+    scoreName: 'review[rating]'
   });
 </script> 
