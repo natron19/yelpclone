@@ -58,5 +58,7 @@ gem 'fog-aws'
 
 gem 'figaro' 
 
+gem 'searchkick'
+
 gem 'devise' 
 
